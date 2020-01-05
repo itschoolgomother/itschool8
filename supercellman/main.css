@@ -3,14 +3,26 @@ background-color:green;
  
 }
 p{
-color: white;
-font-size:35px;
-text-align: center;
+    color: white;
+    font-size:35px;
+    text-align: center;
+    animation: 5s fon infinite;
+}
+
+@keyframes fon{
+    0%{color:white;}
+    25%{color:black;}
+    50%{color:tomato;}
+    75%{color:peru;}
+    100%{color:teal;}
 }
 .snowman{
 	width:200px;
 	height:500px;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50% ,-50%);
 }
 .legs{
 	width:200px;
@@ -64,4 +76,41 @@ text-align: center;
     position:absolute;
     left:40px;
     top:60px;
+}
+.arml{
+	width:100px;
+	height:10px;
+	background-color: brown;
+    position: absolute;
+    left: -90px;
+    top: 55px;
+    transform: rotate(-15deg);
+    z-index: -1;
+}
+.armr{
+	width: 100px;
+	height:10px;
+	background-color:brown;
+	position:absolute;
+	left:140px;
+	top:55px;
+	transform:rotate(15deg);
+	z-index:-1;
+}
+.legl{
+	width: 60px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50%;
+	position:absolute;
+	top:170px;
+}
+.legr{
+	width:60px;
+	height:40px;
+	background-color:white;
+	border-radius:50%;
+	position:absolute;
+	top:170px;
+	left:135px;
 }
