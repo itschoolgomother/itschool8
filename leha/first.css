@@ -1,0 +1,15 @@
+.block{ 
+	background-color: green;
+	width:50px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border-radius: 35%;
+animation: ani infinite 2s;
+}
+@keyframes ani{
+   0%{}
+   50%{}
+   100%{}
+}

@@ -23,4 +23,4 @@ ctx.lineTo(200,200)
 
 ctx.stroke()
 ctx.ClosePath();
-ctx.fillRect(cx-300,cy-300,109,109);
+
