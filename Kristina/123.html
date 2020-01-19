@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<textarea id="text"></textarea>
+<button onclick="get()">ugaday</button>
+<script type="text/javascript">
+	var t = 0
+	var t = t+1;
+	var r = Math.random()*100;
+	r=Math.round(r)
+	function get(){
+		t+=1;
+		var value = document.getElementById('text').value;
+		if(value ==r){alert('Pozdruvlayu, vi vyigraly ')}
+        else if(value<r){alert('Pozdruvlayu, vi proigrali')}
+        else if(value>r){alert('Pozdruvlayu. vi proigralii')}
+        if(t==10){alert('ty loh')}	
+	}
+</script>
+</body>
+</html>
