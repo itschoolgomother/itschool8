@@ -4,22 +4,26 @@
 	<title></title>
 </head>
 <body>
-	<textarea id = "value"></textarea>
-	<button onclick="get()">Угадать</button>
+<canvas id="canvas"></canvas>
 <script type="text/javascript">
-var number = Math.random()*100;
-var Erik = 0;
-Erik++;
-function get() {
-		var value = document.getElementById("value").value;
-		number = Math.round(number);
-		if (number==value) {alert("Вы Угадали!")} 
-	    else if (number>value) {alert("Это число поменьше!")}
-	    else if (number<value) {alert("Это число побольше!")}
-        else if (Erik>9) {alert("Вы проиграли!")}
-	    		
-	    	}
-		
+	var canvas = document.getElementById('canvas');
+	var ctx = canvas.getContext('2d');
+	canvas.width = 1200;
+	canvas.height = 600;
+	var x = 50;
+	var y = 50;
+	for(var i = 0;i<25;i++){
+		function k() {
+			ctx.beginPath()
+			ctx.rect(x,y,50,50);
+			ctx.fill();
+			x+=75;
+			if (x>400) {
+				x=50; y+=75;
+			}
+		}
+	}
+setTimeout(k,1000)
 </script>
 </body>
 </html>

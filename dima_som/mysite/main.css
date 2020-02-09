@@ -1,0 +1,32 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header{
+	width: 100%;
+	min-height: 150px;
+	background-color:lightgreen; 
+}
+.con{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+.head{
+	display: flex;
+}
+.head-left{
+	width: 50%;
+	height: 150px;
+	display: flex;
+}
+.head-right{
+	width: 50%;
+	min-height: 150px;
+}
+.head-left >h1{
+	color: white;
+	font-size: 40px;
+	align-self: center;
+}

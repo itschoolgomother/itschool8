@@ -1,18 +1,82 @@
-body{
-	background-color: silver
-}
-.box{
-	width: 300px;
-	height: 300px;
-	background-color: gold;
-	border-radius: 0% 50% 50% 50%;
-}
-.circle{
-	width: 250px;
-	height: 250px;
-	background-color: red;
-	border-radius: 0% 50% 50% 50%;
+.panda{
+	width: 200PX;
+	height: 400px;
 	position: absolute;
-	left: 50px;
-	top:100px;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.head{
+width: 170px;
+height: 155px;
+background-color: white;
+border-radius: 50% 47%;
+border: solid black 3px;
+box-shadow: inset 17px 0px 3px 0px #f1f1f1;
+position: absolute;
+z-index: 1
+}
+.body{
+	width: 160px;
+	height: 200px;
+	background-color: white;
+	border: solid black 3px;
+	border-radius: 90% 90% 70% 70%;
+	box-shadow: inset 12px 8px 3px 0px #f1f1f1;
+position: absolute;
+top: 130px;
+left: 7px;
+
+}	
+.legl{
+	width:50px;
+	height:80px;
+	background-color: black;
+	border-radius: 40% 50% 40% 50%;
+	position: absolute;;
+	top: 180px;
+	left: 20px;
+	z-index:-1 
+}
+.legr{
+	width: 50px;
+	height: 80px;
+	background-color: #000000;
+	border-radius: 50% 90% 80% 70%;
+	position: absolute;
+	top:180px;
+	left: 100px;
+	z-index: -1;
+}
+.arml{
+	width: 40px;
+	height:90px;
+	background-color: #000000;
+	border-radius:90% 60% 70% 70%;
+	transform:rotate(22deg);
+	position: absolute;
+	left:-10px;
+	top:8px;
+	z-index: -1
+}
+.armr{
+	width: 45px;
+	height: 95px;
+	background-color: #000000;
+	border-radius: 50% 90% 80% 70%;
+	position: absolute;
+	left: 130px;
+	top: -8px;
+	transform: rotate(120deg);
+	z-index: -1;
+}
+.chunk-arm{
+	width: 45px;
+	height: 95px;
+	background-color: #000;
+	border-radius:50% 90% 80% 70%;
+	position: absolute;
+	left: 170px;
+	top: -20px;
+	transform: rotate(25deg);
 }
