@@ -24,9 +24,35 @@ header{
 .head-right{
 	width: 50%;
 	min-height: 150px;
+	display: flex;
+	justify-content: center;
 }
 .head-left >h1{
 	color: white;
 	font-size: 40px;
 	align-self: center;
+
+}
+ menu{
+ 	align-self: center;
+ }
+
+menu > li{
+	list-style: none;
+	display: inline;
+
+	
+
+
+}
+li > a {
+	text-decoration: none;
+	color: palevioletred;
+	margin-left: 30px
+}
+.content{
+	width: 100%;
+	min-height: 500px;
+	background-color: teal;
+	margin-top: 40px;
 }

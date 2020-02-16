@@ -1,12 +1,32 @@
-body{
-	background-color: #889afb
+.panda{
+	width: 200px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
 }
-h1{
-	color:gold;
-	text-align: center
-	front-size
-}
-h1:hover{
-	color:black;
-	transform: rotate(180deg);
+.head{
+	width: 170px;
+	height: 160px;
+	background-color: white;
+	border-radius:  70% 80% 70% 70%;
+	border: 3px black solid;
+	box-shadow:inset 17px 0px 3px 0px white;
+	position: absolute;
+	z-index: 2;
+
+}.body{
+	width: 170px;
+	height:190px;
+	background-color: white;
+	border: 3px black solid;
+	border-radius: 90% 90% 70%70%;
+	box-shadow: inset 12px -8px 3px 0px white;
+	position: absolute;
+	top: 150px;
+	
+
+
+
 }

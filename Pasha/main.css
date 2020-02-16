@@ -1,3 +1,15 @@
+body{
+	background-color: lightblue;
+    animation: 10s changecolor infinite;
+
+}
+@keyframes changecolor{
+	0%{background color:lightcoral; }
+	25%{background-color: lightyellow;}
+	50%{background-color: lightcyan;}
+	75%{background-color: lightslategray;}
+	100%{background-color: lightpink;}
+}
 .panda{
 	width: 200PX;
 	height: 400px;
@@ -79,4 +91,42 @@ left: 7px;
 	left: 170px;
 	top: -20px;
 	transform: rotate(25deg);
+}
+.earl{
+	width: 70px;
+	height: 70px;
+background-color: black;
+border-radius: 70% 80% 70% 70%;
+position: absolute;
+top: -25px;
+left: -5px;
+z-index:-99;
+}
+.earr{
+	width:70px; 
+	height:70px;
+	background-color:black;
+	position:absolute;
+	border-radius: 70% 80% 70% 70%;
+	top:-30px;
+	left:100px;
+	z-index:-99;
+}
+.mouth{
+	width: 25px;
+	height: 15px;
+	background-color: pink;
+	position: absolute;
+	border-radius: 50%;
+	left:75px; 
+	top:120px;
+}
+.nouse{
+	width:15px; 
+	height:25px;
+	background-color: black;
+	position: absolute;
+	border-radius: 50%;
+left: 
+top:
 }
