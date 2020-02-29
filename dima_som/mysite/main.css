@@ -6,7 +6,7 @@
 header{
 	width: 100%;
 	min-height: 150px;
-	background-color:lightgreen; 
+	background-color:purple; 
 }
 .con{
 	max-width: 1200px;
@@ -53,6 +53,29 @@ li > a {
 .content{
 	width: 100%;
 	min-height: 500px;
-	background-color: teal;
+	background-color: purple;
 	margin-top: 40px;
+	display: flex;
+}
+.mainL{
+	width: 40%;
+	/*height: 120px;
+	background-color: red;*/
+}
+.mainR{
+	width: 60%;
+	/*height: 120px;
+	background-color: yellow;*/
+}
+.img > img{
+	width: 100%;
+}
+.text > h2{
+	text-align: center;
+	color: wheat; 
+
+}
+.text > p{
+	color: thistle;
+	padding: 10px 0px;
 }
