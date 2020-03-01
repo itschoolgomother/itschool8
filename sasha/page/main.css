@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.con{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    min-height: 150px;
+    background-color: lightcoral;
+}
+header > div{
+    display: flex;
+}
+.headerL,.headerR{
+    width: 50%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}   
+menu > li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+.headerL > h2{
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+    font-family: 'Lacquer';
+}
+
+main{
+	width: 100%;
+    min-height:500px;
+    background-color: red;
+    display: flex; 
+}
+.mainL,.mainR{  
+   width: 50%;
+  }
+   .mainL > img{
+  	width: 100%
+  }
+  .text{
+  	padding: 15px;
+  }
+  .text > h2{
+  	color: white;
+  	text-align: center;
+  	font-size: 35px;
+  }

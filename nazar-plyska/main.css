@@ -92,12 +92,120 @@
 		top: 3px;
 	}
 	.nouse{
-		width: 60px;
-		height: 40px;
+		width: 50px;
+		height: 30px;
 		background-color: black;
 		border-radius: 50%;
-		
+		position: absolute;
+		left:60px ;
+		top: 80px;
 	}
+	.min-nouse{
+		width: 12px;
+		height: 10px;
+		background-color: white;
+		border-radius: 50%;
+		position: absolute;
+		left: 5px;
+		top: 12px;
+	}
+	.mouth{
+		width: 20px;
+		height: 14px;
+		background-color: black;
+		border-radius: 100% 100% 60% 60%;
+		position: absolute;
+		left: 75px;
+		top: 120px;
+	}
+	.min-mouth{		
+		width: 10px;
+		height: 7px;
+		background-color: #f34372;
+		border-radius: 100% 100% 60% 60%;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	.earL{
+		width: 70px;
+		height: 70px;
+		background-color: black;
+		border-radius:70% 80% 70%70% ;
+		position: absolute;
+		left: -5px;
+		top: -10px;
+		box-shadow: inset 8px 0px 3px 0px #222222;
+	}
+	.earR{
+		width: 70px;
+		height: 70px;
+		background-color: black;
+		border-radius: 70% 80% 70% 70%;
+		position: absolute;
+		left: 100px;
+		top: -11px;
+		box-shadow: inset 8px 0px 3px 0px; 		
+	}
+	.legL{
+		width: 50px;
+		height: 80px;
+		background-color: black;
+		border-radius: 40% 50% 40% 50%;
+		position: absolute;
+		left: 10px;
+		top: 160px;
+		z-index: -1;
+	}
+	.legR{
+		width: 50px;
+		height: 80px;
+		background-color: black;
+		border-radius: 40% 50% 40% 50%;
+		position: absolute;
+		left: 110px;
+		top: 160px;
+		z-index: -1;	
+	}
+	.armL{
+		width: 50px;
+		height: 100px;
+		background-color: black;
+		position: absolute;
+		left: -20px;
+		border-radius: 40% 50% 40% 50%;
+		transform: rotate(12deg);
+		z-index: -1;
+		box-shadow: inset 5px -2px 1px 0px #222;
+		border: 3px solid black;		
+	}
+	.armR{
+		width: 50px;
+		height: 100px;
+		background-color: black;
+		position: absolute;
+		left: 110px;
+		border-radius: 40% 50% 40% 50%;
+		transform: rotate(12deg);
+		z-index: -1;
+		box-shadow: inset 5px -2px 1px 0px;
+		border: 3px solid black;		
+	}
+	.armR2{
+		width: 50px;
+		height: 100px;
+		background-color: black;
+		border-radius: 40% 50% 40% 50%;
+		position: absolute;
+		left: 110px;
+		top: 160px;
+		z-index: -1;		
+	}
+
+
+
+
+
 
 
 

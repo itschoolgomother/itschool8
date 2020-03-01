@@ -1,0 +1,184 @@
+.panda{
+    width: 180px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.head{
+    width: 170px;
+    height: 160px;
+    background-color: white;
+    border-radius: 70% 80% 70% 70%;
+    border: 3px black solid;
+    box-shadow: inset 17px 0px 3px 0px #f1f1f1;
+    position: absolute;
+    z-index: 2;
+}
+.body{
+    width: 170px;
+    height: 190px;
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 90% 90% 70% 70%;
+    box-shadow: inset 12px -8px 3px 0px #e7e1e1;
+    position: absolute;
+    top: 130px;
+}
+.eyel{
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    border-radius: 80% 90% 90% 100%;
+    transform: rotate(55deg);
+    position: absolute;
+    left: 30px;
+    top:  35px;
+}
+.white{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+.blue{
+    width: 25px;
+    height: 25px;
+    background-color: #318CD2;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+} 
+.black{
+    width: 17px;
+    height: 17px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}     
+.shine{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -3px;
+    
+}
+.eyer{
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    border-radius: 80% 90% 90% 100%;
+    transform: rotate(-55deg);
+    position: absolute;
+    left: 100px;
+    top:  35px;
+}
+.whiteR{
+    transform: rotate(95deg);
+    position: absolute;
+    left: 5px;
+}
+.nouse{
+    width: 33px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 67px;
+    top: 80px;
+}
+.min-nouse{
+    width: 10px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 5px;
+}
+.mouth{
+    width: 20px;
+    height: 14px;
+    background-color: black;
+    border-radius: 100% 100% 60% 60%;
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+.min-mouth{
+    width: 10px;
+    height: 7px;
+    background-color: #f34372;
+    border-radius: 100% 100% 60% 60%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.earL{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 70% 80% 70% 70%;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    box-shadow: inset 8px 0px 3px 0px #222222;
+}
+.earR{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 70% 80% 70% 70%;
+    position: absolute;
+    top: -11px;
+    left: 100px;
+    box-shadow: inset 8px 0px 3px 0px #222222;
+}
+.legL{
+    width: 50px;
+    height: 80px;
+    background-color: black;
+    border-radius: 40% 50% 40% 50%;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    z-index:-1;
+}
+.legR{
+    width: 50px;
+    height: 80px;
+    background-color: black;
+    border-radius: 40% 50% 40% 50%;
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    z-index:-1;
+}
+.arml{
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    left: -20px;
+    border-radius: 40% 50% 40% 50%;
+    transform: rotate(12deg);
+    z-index: -1;
+    box-shadow: inset 5px -2px 1px 0px #222;
+    border: 3px solid black;
+}
+menu > li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 25px; 
+}
+.headerL > h2
+coc
