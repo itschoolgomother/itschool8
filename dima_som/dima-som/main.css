@@ -82,3 +82,18 @@ footer > div > p{
 	text-align: center;
 	line-height: 100px;
 }
+@media (max-width: 900px){-
+	header{
+		background-color: indigo;
+	}
+	.content{
+		display: block;
+	} 
+	.mainL,.mainR{
+		width: 100%;
+		min-height: 200px;
+	}
+	.mainR{
+		padding: 25px 0px;
+	}
+}

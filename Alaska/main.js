@@ -16,8 +16,8 @@ ctx.fill();
 ctx.closePath();
 ctx.beginPath();
 ctx.moveTo(200,200);
--ctx.lineTo(400,400);
-+ctx.lineTo(700,20)
+ctx.lineTo(400,400);
+ctx.lineTo(700,20)
 
 ctx.lineTo(200,200)
 

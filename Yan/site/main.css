@@ -1,0 +1,42 @@
+body{
+	background-color: white;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.page{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.title{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+.content{
+	width: 100%;
+	min-height: 250px;
+	display: flex;
+	background-color: red;
+}
+.con-left{
+	width: 50%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.con-right{
+	width: 50%;
+	background-color: white;
+}
+.con-img{
+	width: 50%;
+	height: 30%;
+	background-image: url("1.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat; 
+
+}

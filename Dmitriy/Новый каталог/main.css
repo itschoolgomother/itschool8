@@ -31,6 +31,16 @@ display: inline;
 margin-left: 50px;
 
 }
+menu > li > a {
+	font-size: 20px;
+	color:#1A3365 ;
+	text-decoration: none;
+}
+menu > li > a:hover{
+color: white;
+text-decoration: underline;
+
+}
 main{
 width: 100%;
 min-height: 500px;
@@ -64,8 +74,17 @@ footer{
 	margin-top:50px;
 }
 footer > div >p {
-	color:#1A3365 ;
+	color:#1A3365;
+	text-decoration: none; ;
 	line-height: 100px;
+}
+.btn{
+	height: 20px;
+	width: 100px;
+}
+.btn > a{
+	color: #1A3365;
+	text-decoration: none;
 }
 
  

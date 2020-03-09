@@ -1,0 +1,101 @@
+.con{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    min-height: 150px;
+    background-color: rosybrown;
+}
+.name{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+
+menu{
+    text-align: center;
+}
+menu > li{ 
+     list-style: none;
+     display: inline-block;
+}
+menu > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+/*  This is Content  */
+.content{
+    width: 100%;
+    min-height: 500px;
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainL{
+    width: 40%;
+    min-height: 1000px;
+    padding: 10px;
+}   
+.mainR{
+    width: 60%;
+    min-height: 500px;
+    background-color: white;
+    padding: 10px;
+}
+#img{
+    width: 80%;
+}
+.text > h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: red;
+
+} 
+.text > p {
+    padding: 5px 0px;
+    color: red;
+}
+.list{
+    padding-left: 15px;
+
+}
+
+
+
+.list > li{
+    color: red;
+}
+
+footer{
+    min-height: 100px;
+
+    background-color: white; 
+}
+footer > div  > p{
+    color: red;
+    text-align: center;
+    line-height: 100px;
+}
+
+@media(max-width: 750px){
+    .content{
+        display: block;
+    }
+
+    .mainL,.mainR{
+        width: 95%;
+        margin: 0 auto;
+        min-height:  200px;
+    }
+}

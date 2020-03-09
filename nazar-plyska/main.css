@@ -184,7 +184,7 @@
 		height: 100px;
 		background-color: black;
 		position: absolute;
-		left: 110px;
+		left: 120px;
 		border-radius: 40% 50% 40% 50%;
 		transform: rotate(12deg);
 		z-index: -1;
@@ -197,10 +197,52 @@
 		background-color: black;
 		border-radius: 40% 50% 40% 50%;
 		position: absolute;
-		left: 110px;
+		left: 120px;
 		top: 160px;
 		z-index: -1;		
 	}
+	body{
+		background-color: blue;
+		animation:  ccolor 4s infinite;
+	}
+	@keyframes ccolor{
+		0%{background-color: rosybrown;}
+		50%{background-color: royalblue;}
+		100%{background-color: forestgreen;}
+	}
+	.sky1,.sky2{
+		width: 300px;
+		height: 200px;
+		border-radius: 35%;
+		background-color: lightblue;
+		position: absolute;
+
+	}
+	.sky1{
+		left: 500px;
+		top: 80px;
+		animation:mmove 2s infinite;
+
+
+	}
+	@keyframes mmove{
+		0%{left:50px; }
+		50%{left: 90px;}
+		100%{left: 50px;}
+
+	}
+	.sky2{
+		left:800px;
+		top:80px;
+		animation: dmove 2s infinite;
+	}
+	
+	@keyframes dmove{
+		0%{left:600px; }
+		50%{left: 690px;}
+		100%{left: 600px;}
+	}
+
 
 
 

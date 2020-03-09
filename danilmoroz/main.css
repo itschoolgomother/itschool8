@@ -1,0 +1,30 @@
+.panda{
+	width: 200px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%, -50%);
+
+}
+.head{
+	width: 150px;
+	height: 150px;
+	background-color: white;
+	border-radius: 46px;
+	border: solid black 3px;
+	box-shadow: inset 17px 0px 3px 0px #f1f1f1;
+	position: absolute;
+}
+.body{
+	width: 160px;
+	height: 200px;
+	background-color: white;
+	border: solid black 3px;
+	border-radius: 90% 90% 70% 70%;
+	box-shadow: inset 12px -8px 3px 0px #f1f1f1;
+	position: absolute;
+	top: 150px;
+	left: -5px;
+	z-index: -1;
+}

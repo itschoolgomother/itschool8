@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.con{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{ 
+    width: 100%;
+    min-height: 150px;
+    background-color: lightseagreen;
+    display: flex;
+}
+.headerL{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.headerR{
+    width: 50%;
+    display: flex;
+    align-items: center ;
+}
+.headerL > h2{
+    color: wheat;
+    font-family: 'Righteous';
+    font-size: 50PX ; 
+}
+menu > a{
+    color: wheat;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+main{
+    width: 100%;
+    min-height: 500px;
+    background-color: lightseagreen;
+    margin-top: 50px;
+    display: flex;
+}
+.mainl{
+	width: 50%;
+}
+.mainr{
+	width: 50%;
+}
+  .mainl >img{
+  	width: 100%;
+  }
+  .text{
+  	padding: 25px;
+  }
+  .text >  h2{
+  	color: orange;
+  	text-align: center;
+  }
+  .text > p{
+  	color:yellow;
+  	margin-top: 20px; 
+  }

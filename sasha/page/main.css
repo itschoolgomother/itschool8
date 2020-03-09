@@ -53,3 +53,9 @@ main{
   	text-align: center;
   	font-size: 35px;
   }
+
+  menu > li > a{
+  	color: blue;
+  	font-size: 20px;
+  	text-decoration: none;
+  }

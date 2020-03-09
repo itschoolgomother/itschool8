@@ -5,7 +5,41 @@
 </head>
 <body>
 
-<canvas id="canvas" ></canvas>
-<script src="main.js"></script>
+<canvas style="border:1px solid black" id="canvas" >
+	
+</canvas>
+<script type="text/javascript">
+	var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width = innerWidth-40;
+canvas.height = innerHeight-40;
+
+
+
+ctx.rect(300,220,300,200);
+
+
+ctx.rect(310,220,50,50);
+ctx.rect(300,230,50,50);
+ctx.rect(300,220,50,50);
+
+
+ctx.rect(300,370,50,50);
+ctx.rect(300,360,50,50);
+ctx.rect(310,370,50,50);
+
+
+ctx.rect(550,220,50,50);
+ctx.rect(550,230,50,50)
+ctx.rect(540,220,50,50)
+
+ctx.rect(550,370,50,50);
+ctx.rect(550,360,50,50);
+ctx.rect(540,370,50,50);
+
+
+ctx.stroke()
+</script>
+
 </body>
 </html>

@@ -1,0 +1,29 @@
+.box{
+	background-color: red;
+	height: 150px;
+	width: 150px;
+	animation: box 5s infinite;
+}
+@keyframes box{
+	0%{background-color: gold;border-radius: 10%; transform: rotate(50deg);}
+	20%{background-color: green;border-radius:20%;  }
+	50%{background-color: blue;border-radius: 30%; transform :rotate(180deg);}
+	80%{background-color: yellow;border-radius: 40%}
+	100%{background-color: black;border-radius:  50%;transform: rotate(360deg);}
+}
+.box2{
+	background-color: red;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	position:absolute;
+	left: 500px;
+	top:250px;
+	animation: movee 3s infinite;
+}
+@keyframes movee{
+	0%{left: 500px;top: 250px;}
+	25%{left: 700px;top: 250px;}
+    50%{left: 700px;top: 400px;}
+    100%{left: 500px;top: 250px;}
+}

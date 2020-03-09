@@ -1,0 +1,54 @@
+#inform {
+	border: 25px solid purple;
+	background-color: gray;
+	width: 250px;
+	padding: 50px;
+	margin: 400px;
+}
+#name {
+	color: red;
+}
+#age {
+	color: lime;
+}
+
+/*#myText{
+	color: blue;
+}
+#myText:hover {
+	color: yellow;
+	text-decoration: line-through;
+	background-color: pink;
+}*/
+
+/*div {
+	width: 500px;
+	height: 500px;
+	border: 200px solid blue;
+	background-color: yellow;
+	border-radius: 500px;
+}*/
+
+
+/*p {
+	color: gray;
+	text-decoration: underline;
+}
+#a1 {
+	color: red;
+
+}
+#b2 {
+	color: yellow;
+}
+#c3 {
+	color: blue;
+}
+
+#d4 {
+	color: gray;
+}
+
+#e5 {
+	color: orange;
+}*/
