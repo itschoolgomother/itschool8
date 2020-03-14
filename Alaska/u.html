@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+	<style type="text/css">
+		button{
+			width:200px ;
+			height: 50px;
+			margin: 30px;
+		}
+#r1{
+	position:absolute;
+	top:80px;
+	width: 200px;
+	height: 50px;
+	border:1px solid pink;
+	background-color: gray;
+	left: 75px;
+	visibility:hidden;
+}
+#r2{
+	position:absolute;
+	top:80px;
+	width: 200px;
+	height: 50px;
+	border:1px solid pink;
+	background-color: gray;
+	left: 338px;
+	visibility:hidden;
+}
+#r3{
+	position:absolute;
+	top:80px;
+	width: 200px;
+	height: 50px;
+	border:1px solid pink;
+	background-color: gray;
+	left: 604px;
+	visibility:hidden;
+}
+#r4{
+	position:absolute;
+	top:80px;
+	width: 200px;
+	height: 50px;
+	border:1px solid pink;
+	background-color: gray;
+	left: 867px;
+	visibility:hidden;
+
+}
+
+
+	</style>
+<center>
+		<button onmouseover="show('r1')" onmouseout="h('r1')">
+	<div id="r1">gggggggg</div>
+		</button>
+		<button onmouseover="show('r2')" onmouseout="h('r2')">
+	<div id="r2">uuuuuuuu</div>
+		</button>
+		<button onmouseover="show('r3') " onmouseout="h('r3')">
+	<div id="r3">kkkkkkkk</div>
+		</button>
+		<button  onmouseover="show('r4')" onmouseout="h('r4')">
+		<div id="r4">llllllll</div>
+	</button>
+
+</center>
+	<script type="text/javascript">
+		var k =1;
+		function show(id){
+			if (k>0 ) {document.getElementById(id).style.visibility="visible"} else	{document.getElementById(id).style.visibility="hidden"
+			}k=-k
+		}
+
+		function h(id) {
+			document.getElementById(id).style.visibility="hidden"
+			k=1
+		}
+			
+
+		
+	</script>
+
+</body>
+</html>

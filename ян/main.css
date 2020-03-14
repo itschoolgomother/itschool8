@@ -43,13 +43,13 @@ menu > li > a{
 }
 .mainL{
     width: 40%;
-    min-height: 1000px;
+    min-height: 500px;
     padding: 10px;
 }   
 .mainR{
     width: 60%;
     min-height: 500px;
-    background-color: white;
+    background-color:white;
     padding: 10px;
 }
 #img{
@@ -65,6 +65,7 @@ menu > li > a{
 .text > p {
     padding: 5px 0px;
     color: red;
+
 }
 .list{
     padding-left: 15px;
