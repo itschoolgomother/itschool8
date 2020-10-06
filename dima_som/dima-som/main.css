@@ -4,7 +4,7 @@
 }
 header{
     width: 100%;
-    background: purple;
+    background: indigo;
 }
 .con{
     max-width: 1200px;
@@ -45,7 +45,7 @@ li > a {
 .content{
     width: 100%;
     min-height: 500px;
-    background-color: purple;
+    background-color: indigo;
     margin-top: 80px;
     display: flex;
 }
@@ -74,7 +74,8 @@ li > a {
 footer{
 	width: 100%;
 	min-height: 100px;
-	background-color: purple;
+	background-color: indigo
+    ;
 	margin-top: 90px;
 }
 footer > div > p{
@@ -82,10 +83,8 @@ footer > div > p{
 	text-align: center;
 	line-height: 100px;
 }
-@media (max-width: 900px){-
-	header{
-		background-color: indigo;
-	}
+@media (max-width: 900px){
+	
 	.content{
 		display: block;
 	} 
@@ -94,6 +93,28 @@ footer > div > p{
 		min-height: 200px;
 	}
 	.mainR{
-		padding: 25px 0px;
-	}
+		padding: 25px 0px
+    }
+    }
+    
+    @media (max-width: 1250px) {
+        .head-left > h1{
+            margin-left: 15px;
+        }
+    }
+@media (max-width: 600px){
+    .head{
+        display: block;
+    }
+    .head-left,.head-right{
+        width: 100%;
+        justify-content: center;
+        min-height: 80px; 
+    }
+    menu > li {
+        display: block;
+        padding: 5px 0px;
+        font-size: 20px;
+
+    }
 }

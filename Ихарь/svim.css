@@ -1,0 +1,23 @@
+li{
+	color:green;
+}
+li:hover{
+color:red;
+text-decoration:line-through;
+font-size: 20px;
+}
+.item{
+	color: red;
+}
+td{
+	border:3px solid black;
+	background-color: rgba(0, 255 ,0 ,1);
+}
+.or{
+	background-image: linear-gradient(to right top,red,blue,green,orange);
+	background-image: radial-gradient(at top,red,blue,green,orange) 
+}
+table{
+border:3px solid orange;
+border-collapse: collapse;	
+}

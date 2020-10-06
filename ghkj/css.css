@@ -1,0 +1,24 @@
+h1{
+color: red;
+font-size: 100px;	
+}
+h1:hover{
+color: blue;
+font-size: 111px;
+}
+.box{
+list-style-type: square;
+}
+div{
+	width: 100px;	
+	height: 100px;
+	background-color: rgba(140, 100, 225, 1);
+	border: 9px dashed black;
+	border-radius: 45%;
+	background-image: radial-gradient( gold, white );
+}
+body{
+	background-image: linear-gradient(to right bottom, red, blue, gold);
+background-repeat: no-repeat;
+height: 1000px;
+}
