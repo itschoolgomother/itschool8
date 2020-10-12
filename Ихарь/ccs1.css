@@ -1,0 +1,10 @@
+.main{
+	width: 600px;
+	height: 500px;
+	border: 2px solid black;
+}
+img{
+	position: absolute;
+	left: 130px;
+	top:130px;
+}

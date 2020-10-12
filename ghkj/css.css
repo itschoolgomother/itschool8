@@ -22,3 +22,22 @@ body{
 background-repeat: no-repeat;
 height: 1000px;
 }
+table{
+	border: 2px solid lightgrey;
+	border-collapse: collapse;
+}
+td{
+	border: 2px solid lightgrey;
+	text-align: center;	
+}
+th{
+	border: 2px solid lightgrey;
+	background-color: darkgrey;
+	color: white;
+}
+.pink{
+	background-color: pink;
+}
+.green{
+	background-color: green;
+}
