@@ -2,16 +2,26 @@ h1{
 	color: red;
 }
 body{
-	background-color: rgb(26,12,9);
-}
+	background-color: rgb(160,190,0);
+}/*
 div{
-	width: 50px;
+	width: 120px;
 	height: 100px;
-	background-color: rgb(50,40,9);
-	border: 1px dashed black; 
-	border-radius: 30%;
+	background-color: rgb(90,40,10);
+	border: 20px dashed black; 
+	border-radius: 0%;
 	background-image: linear-gradient(to bottom right, red, blue)
 }
 div+div{
 	background-image: radial-gradient(at center,red,blue)
+}*/
+h1{
+	font-size: 50px;
+	text-decoration: underline;
+	text-transform: lowercase;
+	text-shadow: 120px 0px 0 blue;
+}
+div{
+	position: absolute;
+	left: 600px;
 }
