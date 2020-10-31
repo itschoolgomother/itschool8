@@ -1,0 +1,48 @@
+h1{
+	color: yellow;
+	font-size: 88px;
+	animation-name: go1;
+	animation-duration: 10s;
+	text-shadow: 10px 0px 0px red;
+}
+@keyframes go1{
+	60%{font-size: 500px;}
+	40%{color: green;}
+    20%{color:purple ;}
+    20%{color:pink;}
+}
+img{
+	animation-name: go;
+	animation-duration: 10s;
+	position: absolute;
+	left: 67px;
+top: 59px;
+}
+@keyframes go{
+9%{top: 400px;left: 466px;}
+}
+body{
+	background-color: black;
+	animation-name: go4;
+	animation-duration:10s; 
+}
+@keyframes go4{
+40%	{background-color:beige;}
+40%{background-color:yellow;}
+}
+.button{
+	height: 150px;
+	width: 263px;
+	border:6px solid red;
+	padding:  50PX 0PX 0PX 0PX;
+	position: absolute;
+	top: 100px;
+	left:800px;
+}
+a{
+	font-size: 80px;
+	text-decoration: none;
+}
+.button:hover{
+	border-radius: 50%;
+}
