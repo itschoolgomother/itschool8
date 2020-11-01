@@ -36,7 +36,19 @@ isWaterHot = false;
 let canMakeTea = isWaterHot && makeTea;
 console.log(canMakeTea)*/
 
-let str = "Hello Worold";
+/*let str = "Hello Worold";
 for(let i=0;i<= 10;i++){
 console.log(str[i])
+}*/
+function shark(yourDistence=3, sharkDistence=6,
+    yourSpeed=2, sharkSpeed=4, dolphin=5,){
+	let doubleSpeed = yourSpeed*2;
+	if(dolphin){
+		yourSpeed = doubleSpeed;
+	}
+	if(yourDistence/yourSpeed > sharkDistence/sharkSpeed){
+    	return "Alive!";
+	}else{
+	return "Dead";		
+}
 }
