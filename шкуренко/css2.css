@@ -1,0 +1,25 @@
+.main-menu li{
+	padding: 0;
+	margin:;
+	list-style-type: none;
+    width: 250px;
+}
+
+.main-menu li a{
+text-decoration: none;
+background-color: #feb40e;
+border:2px solid black;
+display: block;
+color: black;
+font-size: 30px;
+margin-bottom: -2px;
+padding:5px 40px 5px 50px ;
+
+}
+.main-menu a:hover{
+	background-color: black;
+	color:#feb40e;
+	text-decoration:underline;
+	border:2px solid #feb40e; 
+}
+

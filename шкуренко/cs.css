@@ -1,0 +1,44 @@
+ <!-- h1{
+	animation-name: go;
+	animation-duration: 20s;
+	position: absolute;
+	left: 400px;
+	top: 200px;
+}
+@keyframes go{
+	10%{color: red;}
+	20%{font-size: 100px;}
+	30%{text-decoration: underline;}
+	40%{text-shadow: 10px 10px 5px indigo;}
+	50%{top:0px;left:0px;}
+	60%{transform: rotate(180deg);}
+}
+body{
+	animation-name: gogo;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes gogo{
+	10%{background-color: blue;}
+	20%{background-color: red;}
+	30%{background-color: indigo;}
+	40%{background-color: yellow;}
+	50%{background-color: cyan;}
+	60%{background-color: orange;}
+}
+div{
+	animation-name: gogog;
+	animation-duration: 20s;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	border:2px solid black ;
+}
+@keyframes gogog{
+	10%{border-radius: 50%}
+	20%{background-image:radial-gradient(red,blue) }
+	30%{background-image:radial-gradient(green,indigo)}
+	40%{border:5px dashed green;}
+	50%{height: 600px; width: 500px}
+	60%{transform: rotate(10000deg);}
+} -->
