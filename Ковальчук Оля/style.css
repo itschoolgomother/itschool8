@@ -1,0 +1,21 @@
+h1{
+	background-color: yellow;
+	color: purple;
+	font-style: italic;
+	padding: 15px;
+	border:15px green solid;
+	display: block;
+	height:20px;
+	width: 200px;
+	text-decoration:underline;
+	/*overline line-through*/
+
+
+}
+body{
+	/*background-color: orange;*/
+	/*background-image: linear-gradient(to bottom right,red,orange,yellow);*/
+	background-image: radial-gradient(at center,blue,yellow,gold);
+	background-repeat:no-repeat;
+	height:650px;
+}

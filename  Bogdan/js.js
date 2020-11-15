@@ -1,65 +1,14 @@
-/*function meetUp(N, C) {
-	let meets = (12-C)/N;
- return  Math.floor(meets);
-}
+let notaDo = new Audio();
+notaDo.src = "noty-do.mp3";
 
-let num = 5;
-console.log("num")
+document.getElementById("nDo")
 
-function getExchange(vidVolut,kyrs,summa){
-	let kolvo = kyrs*summa;
- return `Mi Vam dadim  ${kolvo} ${vidVolut}`;
-}
-function litres (time){
-	return Math.floor(time*0.5);
-}
-function sravnenie(){
-let a = true;
-let b = false;
-if(a ==!b){
-	return  true;
-}else{
-	return false;
-}
-}
-let cashInWallet=30;
-let amount = 50 ;
-const prias = 40;
-let canBay = (cashInWallet>=prias);
-let  enoughWalet = (cashInWallet>=prias);
-let enoughCasol=amount>=prias;
-let canBuy= enoughWalet || enoughCasol;
-console.log(canBay);
-let isWaterHot = true;
-let makeTea = true;
-isWaterHot = false;
-let canMakeTea = isWaterHot && makeTea;
-console.log(canMakeTea)*/
+document.addEventListener("keydown",playPiano)
 
-/*let str = "Hello Worold";
-for(let i=0;i<= 10;i++){
-console.log(str[i])
-}*/
-function shark(yourDistence=3, sharkDistence=6,
-    yourSpeed=2, sharkSpeed=4, dolphin=5,){
-	let doubleSpeed = yourSpeed*2;
-	if(dolphin){
-		yourSpeed = doubleSpeed;
-	}
-	if(yourDistence/yourSpeed > sharkDistence/sharkSpeed){
-    	return "Alive!";
-	}else{
-	return "Dead";		
+function playPiano(e) {
+switch(e.keyCode){
+	case 90:
+	notaDo.play();
+	break;
 }
-}
-document.write("пипипулыка");
-let str = "s1ba1v1";
-function answer(){
-	let odin = 0;
-	for (let i=0;i<=str.length;i++){
-	if(1 ==str[i]){
-		odin+=1
-	}	
-	}
-	document.write(odin);
 }
