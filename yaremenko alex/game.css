@@ -1,0 +1,21 @@
+.hero{
+	height: 100px;
+	width: 100px;
+	border: 1px solid red;
+	position: absolute;
+}
+.head{
+	height: 50px;
+	width: 50px;
+	border: 2px solid black;
+	position: absolute;
+	background-color: blue;
+	border-radius: 50%;
+	left: 75px
+}
+.head{
+	height: 30px;
+	width: 25px;
+	border: 2px solid pink;
+	position: absolute;
+}
