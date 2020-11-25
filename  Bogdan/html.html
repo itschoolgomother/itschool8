@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css.css">
-	<script type="text/javascript" src="js.js"></script>
+	
 </head>
 <body>
-<div>
-	<div class="wK" id="nDo"></div>
-	<div class="wK" id="nRe"></div>
-	<div class="wK" id="nMi"></div>
-	<div class="wK" id="nFa"></div>
-	<div class="wK" id="nSol"></div>
-	<div class="wK" id="nLia"></div>
-	<div class="wK" id="nSi"></div>
-</div>
+<canvas width="600" height="400" id="myCanvas"></canvas>
+<script type="text/javascript">
+	let cnv = document.getElementById("myCanvas");
+let ctx = cnv.getContext('2d');
+let x = cnv.width/2;
+let y = cnv.height/2;
+
+ctx.beginPath();
+ctx.rect(50,100,100,200);
+ctx.fillStyle = "red";
+ctx.fill();
+ctx.closePath(); 	
+
+function draw(){
+ctx.beginPath();
+ctx.arc(x,y,50, 100, 50,100, 0, Math.PI*2,false);
+ctx.fillStyle = "blue";
+ctx.fill();
+ctx.strokeStyle = "black";
+ctx.stroke();
+
+ctx.closePath();
+x+=2;
+y+=2;
+if(y+100 == cnv.height){
+	y-=2;
+} 	
+}
+setInterval(draw,10);
+</script>
+<style type="text/css">
+	canvas{
+		border:1px solid black; 
+	}
+</style>
 </body>
 </html>

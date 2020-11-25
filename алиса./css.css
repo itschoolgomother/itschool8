@@ -1,0 +1,80 @@
+body{
+	background-image: url(fone.png);
+}
+.hero{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+.head{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 70px;
+	top: 10px;
+}
+.body{
+	width: 40px;
+	height: 70px;
+	background-color:black;
+	border-radius: 70%;
+	position: absolute;
+	left: 70px;
+	top: 50px;
+
+
+}
+
+.right{
+	width: 69px;
+	height: 18px;
+	background-color:black;
+	border-radius: 20%;
+	position: absolute;
+	left: 30px;
+	top: 60px;
+}
+.left{
+	width: 69px;
+	height: 18px;
+	background-color:black;
+	border-radius: 20%;
+	position: absolute;
+	left: 80px;
+	top: 60px;
+}
+.LegRight{
+	width: 14px;
+	height: 69px;
+	background-color:black;
+	border-radius: 20%;
+	position: absolute;
+	left: 75px;
+	top: 80px;
+
+}
+.Legleft{
+	width: 14px;
+	height: 69px;
+	background-color:black;
+	border-radius: 20%;
+	position: absolute;
+	left: 90px;
+	top: 80px;
+}
+
+.coin{
+	width: 30px;
+	height: 30px;
+	background-color: yellow;
+	border-radius: 50%;
+	position: absolute;
+	left: 900px;
+	animation-name: go;
+	animation-duration: 5s; 
+}
+@keyframes go{
+	10%{ background-color: red; }
+}
