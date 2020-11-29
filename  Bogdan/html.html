@@ -11,6 +11,8 @@
 let ctx = cnv.getContext('2d');
 let x = cnv.width/2;
 let y = cnv.height/2;
+let r = 10 ;
+let rGrow = 1;
 
 ctx.beginPath();
 ctx.rect(50,100,100,200);
@@ -19,21 +21,40 @@ ctx.fill();
 ctx.closePath(); 	
 
 function draw(){
+
 ctx.beginPath();
-ctx.arc(x,y,50, 100, 50,100, 0, Math.PI*2,false);
+ctx.clearRect(0,0,cnv.width,cnv.height)
+ctx.arc(x,y,r, 0, Math.PI*2,false);
 ctx.fillStyle = "blue";
 ctx.fill();
 ctx.strokeStyle = "black";
 ctx.stroke();
 
 ctx.closePath();
-x+=2;
-y+=2;
-if(y+100 == cnv.height){
-	y-=2;
-} 	
+r+=rGrow;
+if(r >= 300){
+rGrow = -rGrow;
+}else if (r <=0){
+rGrow = -rGrow
+
 }
-setInterval(draw,10);
+//x+=2;
+//y+=2;
+//if(y+100 == cnv.height){
+//	y-=2;
+//} 	
+}
+setInterval(draw,100);
+function DBR (){
+ctx.beginPath();
+ctx.rect(0, 0, 10, 10)
+ctx.fillStyle = "green";
+ctx.fill();
+ctx.rotate(45*Math.PI/180)
+ctx.closePath();
+
+}
+setInterval(DBR, 100)
 </script>
 <style type="text/css">
 	canvas{
