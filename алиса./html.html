@@ -3,9 +3,10 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css.css">
+	
 </head>
 <body>
-	<div class="hero">
+	<div class="hero" id="hero">
 		<div class="head"></div>
 		<div class="body"></div>
 		<div class="right"></div>
@@ -14,7 +15,41 @@
 		<div class="Legleft"></div>
 
 	</div>
-	<div class="coin"></div>
+	<div class="coin" id="coin"></div>
+<script type="text/javascript">
+	let hero = document.getElementById('hero');	
+	let coin =document.getElementById('coin')
+let x=10;
+let y =10;
 
+document.addEventListener("keydown" , move);
+
+function move(e) {
+	if (e.keyCode == 37) {
+		hero.style.left = x + "px";
+		x = x - 90;
+	}
+	if (e.keyCode == 39) {
+		hero.style.left = x + "px";
+		x = x + 90;
+	}
+	if (e.keyCode == 40) {
+		hero.style.top = y + "px";
+		y+=90;
+	}
+	if (e.keyCode == 38) {
+		hero.style.top = y + "px";
+		y-=90;
+
+		if (hero.style.top + hero.style.height >= coin.style.top) {
+			coin.style.display = "none";
+		}
+	}
+
+
+
+		
+} 
+</script>
 </body>
 </html>

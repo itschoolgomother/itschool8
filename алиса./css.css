@@ -1,10 +1,12 @@
 body{
 	background-image: url(fone.png);
 }
-.hero{
+#hero{
 	width: 200px;
 	height: 200px;
 	position: absolute;
+	left: 10px;
+	top: 10px;
 }
 .head{
 	width: 50px;
@@ -68,7 +70,7 @@ body{
 .coin{
 	width: 30px;
 	height: 30px;
-	background-color: yellow;
+	background-color: brown;
 	border-radius: 50%;
 	position: absolute;
 	left: 900px;
