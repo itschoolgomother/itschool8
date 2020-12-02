@@ -50,9 +50,45 @@
     border-radius: 50%;
 }
 .coin{
-	width: 60px;
+	width: 50px;
 	height: 50px;
 	border-color: gold;
 	position: absolute;
-	border-radius: 50%
+	border-radius: 50%;
+	animation-name: red;
+	animation-duration: 5s; 
+}
+body{
+   background-color: black;
+   animation-name: fon;
+   animation-duration: 50s;
+} 
+@keyframes fon{
+    10%{
+    background-color: #673ab7;
+	}
+	20%{
+     background-color: #a8b53f;
+	}
+	30%{
+     background-color: red;
+	}
+	40%{
+     background-color: green;
+	}
+	50%{
+     background-color: black;
+	}
+	60%{
+     background-color: gold;
+	}
+	70%{
+     background-color: pink;
+	}
+	80%{
+     background-color: red;
+	}
+	90%{
+     background-color: red;
+	}
 }
