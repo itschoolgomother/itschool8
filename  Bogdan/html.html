@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
@@ -14,47 +14,64 @@ let y = cnv.height/2;
 let r = 10 ;
 let rGrow = 1;
 
-ctx.beginPath();
-ctx.rect(50,100,100,200);
-ctx.fillStyle = "red";
-ctx.fill();
-ctx.closePath(); 	
+// ctx.beginPath();
+// ctx.rect(50,100,100,200);
+// ctx.fillStyle = "red";
+// ctx.fill();
+// ctx.closePath(); 	
 
-function draw(){
+// function draw(){
 
-ctx.beginPath();
-ctx.clearRect(0,0,cnv.width,cnv.height)
-ctx.arc(x,y,r, 0, Math.PI*2,false);
-ctx.fillStyle = "blue";
-ctx.fill();
-ctx.strokeStyle = "black";
-ctx.stroke();
+// ctx.beginPath();
+// ctx.clearRect(0,0,cnv.width,cnv.height)
+// ctx.arc(x,y,r, 0, Math.PI*2,false);
+// ctx.fillStyle = "blue";
+// ctx.fill();
+// ctx.strokeStyle = "black";
+// ctx.stroke();
 
-ctx.closePath();
-r+=rGrow;
-if(r >= 300){
-rGrow = -rGrow;
-}else if (r <=0){
-rGrow = -rGrow
+// ctx.closePath();
+// r+=rGrow;
+// if(r >= 300){
+// rGrow = -rGrow;
+// }else if (r <=0){
+// rGrow = -rGrow
 
-}
+// }
 //x+=2;
 //y+=2;
 //if(y+100 == cnv.height){
 //	y-=2;
 //} 	
-}
-setInterval(draw,100);
+// }
+// setInterval(draw,100);
+let x1 = 100;
+let y1 = 100;	
+let dx = 10;
 function DBR (){
-ctx.beginPath();
-ctx.rect(0, 0, 10, 10)
-ctx.fillStyle = "green";
-ctx.fill();
-ctx.rotate(45*Math.PI/180)
-ctx.closePath();
 
+// ctx.beginPath();
+// ctx.rect(0, 0, 10, 10)
+// ctx.fillStyle = "green";
+// ctx.fill();
+// ctx.rotate(45*Math.PI/180)
+// ctx.closePath();
+ctx.beginPath();
+ctx.clearRect(0,0,cnv.width,cnv.height);	
+ctx.arc(x1,y1,30,0,Math.PI*2,false);
+ctx.fillStyle = "red";
+ctx.fill();
+ctx.closePath();
+x1+=dx;
+y1+=dx;
+if (x1+30>= cnv.width || x1-30<=0){
+dx=-dx;
 }
-setInterval(DBR, 100)
+if(y1+30>=cnv.height || g1-30<=0){
+dx-=dx	
+}
+}
+setInterval(DBR, 15)
 </script>
 <style type="text/css">
 	canvas{
