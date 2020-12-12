@@ -1,0 +1,18 @@
+body{
+	background-image: linear-gradient(to left, red, green, blue); 
+}
+input[type="text"]{
+	color: lightgrey;
+}
+input[type="text"]:hover{
+	cursor: pointer;
+}
+.rectangle{
+width: 100px;
+height: 100px;
+background-color: yellow;
+margin: 0px auto;
+}
+input[type="text"]:active{
+	border-color: red;
+}
