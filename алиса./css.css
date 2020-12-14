@@ -1,5 +1,8 @@
 body{
 	background-image: url(fone.png);
+	min-height: 100vh;
+	cursor: url(cursor.cur) 0 0, pointer;
+	margin: 0;
 }
 #hero{
 	width: 200px;
@@ -67,7 +70,7 @@ body{
 	top: 80px;
 }
 
-.coin{
+#coin{
 	width: 30px;
 	height: 30px;
 	background-color: brown;

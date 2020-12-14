@@ -19,11 +19,29 @@
 <script type="text/javascript">
 	let hero = document.getElementById('hero');	
 	let coin =document.getElementById('coin')
+	
 let x=10;
 let y =10;
+let intersection =function (h,c){
+return h.top + h.height >= c.top &&
+c.top+ c.height >= h.top &&
+h.left + h.width >= c.left &&	
+c.left+ c.height >= h.top  
+}
 
 document.addEventListener("keydown" , move);
-
+ let loop = function() {
+ 	let box = hero.getBoundingClientRect();
+	let box1 = coin.getBoundingClientRect();
+	if (intersection(box,box1)) {
+		// box1.display = "none";
+		// alert('hekko')
+		coin.style.display = "none";
+		document.write("+1")
+	}
+	requestAnimationFrame(loop);
+ }
+ 	requestAnimationFrame(loop);
 function move(e) {
 	if (e.keyCode == 37) {
 		hero.style.left = x + "px";
@@ -40,10 +58,6 @@ function move(e) {
 	if (e.keyCode == 38) {
 		hero.style.top = y + "px";
 		y-=90;
-
-		if (hero.style.top + hero.style.height >= coin.style.top) {
-			coin.style.display = "none";
-		}
 	}
 
 
