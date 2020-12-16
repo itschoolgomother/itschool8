@@ -92,3 +92,7 @@ body{
      background-color: red;
 	}
 }
+body{
+	cursor: url(cursor.cur), auto;
+	min-height: 100vh;
+}

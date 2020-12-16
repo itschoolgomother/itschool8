@@ -19,17 +19,34 @@
 	let hero = document.getElementById("hero");
 	let a = 50;
 	let b =  '50';
+	let x = 10;
+	let intersection =function(h,c){
+		return h.left+h.width >=c.left &&
+		c.left+c.width >=h.left &&
+		h.top+h.height >=c.top &&
+		c.top+c.height >=h.top 
+	}
+	
 	console.log('a+b');
-document.addEventListtener('keydown',move);
+document.addEventListener('keydown',move);
     function move(e) {
-    	if(e.keyCoe == 88){
-    		hero.style.left="100px";
-    }
-	if (a === b){
-		console.log('PRAVDA');
-		}else {
-			console.log('LOZH');
-	    }
+    	if(e.keyCode == 87){
+    		x-=10;
+    		hero.style.top = x + "px";
+    	}
+  if (e.keyCode == 83){
+  	x+=10;
+    hero.style.top = x +"px"  
+}
+if (e.keyCode == 65){
+	x-=10; 
+	hero.style.left = x +"px"  
+}
+if (e.keyCode == 68){
+	x+=10;
+	hero.style.left = x +"px"  
+}
+}
 </script>
 </body>
 </html>
